@@ -1,0 +1,32 @@
+table{
+    width: 100%;
+    border:solid #aaa;
+    border-collapse: collapse ;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+table tr{
+    text-align: left;
+    border:solid #aaa 1px;
+
+}
+table th{
+    background-color: #ddd;
+}
+table td,table th{
+    padding:10px;
+}
+.searchBox{
+    border:solid 2px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.searchBox input{
+    width: 80%;
+    border:none;
+    outline: none;
+    font-size: 20px;
+}
+.searchBox .icon{
+    font-size: 20px;
+}
